@@ -22,11 +22,10 @@ Fundify Vault is a full-stack web application built with React and Spring Boot, 
 Frontend	Backend	Security & Auth
 React (Vite)	Spring Boot (Java)	Spring Security + CSRF
 Bootstrap 5	RESTful APIs	Session-based login
-Axios + HookForm	JPA + Hibernate	Role-based access
+Axios + HookForm	JPA + Hibernate	Role-based access control
 
 🧑‍💻 Roles
 USER
-
 View mutual funds
 
 Buy/Sell units
@@ -34,16 +33,26 @@ Buy/Sell units
 View own transaction history
 
 ADMIN
-
 All USER privileges
 
 Add/Update/Delete funds
 
 🚀 How to Run
-Clone the repo
+📦 Backend (Spring Boot)
+Clone the repository
 
-Backend: Run the Spring Boot app on port 6060
+Open the backend project in your IDE
 
-Frontend: Run React app on port 5173
+Run the Spring Boot app (port 6060)
 
-Login/Register and start using the platform!
+💻 Frontend (React + Vite)
+Navigate to the frontend folder:
+
+cd mfams-frontend
+Install dependencies:
+
+npm install
+Start the development server:
+
+npm run dev
+Open http://localhost:5173 in your browser
